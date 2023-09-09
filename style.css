@@ -1,0 +1,103 @@
+body{
+    background-color: rgb(143, 66, 66);
+    height: 91vh;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    background-color: rgb(202, 128, 128);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7vh;
+    width: 96vw;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-size: large;
+   
+}
+nav ul li{
+   display: inline;   
+}
+a{
+    list-style-type: none;
+    text-decoration: none;
+    justify-content: space-between;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+a:hover{
+    color:  rgb(250, 252, 252);
+    text-decoration-line: underline;
+  text-decoration-color: rgb(248, 118, 118);
+  text-decoration-thickness: 3px;
+  visibility: visible;
+  transform: scaleX(1);
+  z-index: -1;
+  animation-fill-mode: .5s forwards;
+  
+}
+
+.logo{
+    height: 6vh;
+    width: 13vw;
+    padding-left: 4rem;
+}
+.logo:hover{
+    transform: scale(1.05);
+  transition: 500ms ease-in-out;
+}
+.container{
+    width:70%;
+    height: 23rem;
+    margin-top: 6rem;
+    margin-left: 13rem;
+    color: black;
+}
+.child-container{
+    width: 50%;
+    display: flex;
+    float: left;
+    height: 30rem;
+   
+}
+.first{
+    height: 30rem; 
+}
+.second{
+    height: 30rem;
+    
+}
+
+span p{
+    color: black;
+    font-weight: 20px;
+    padding: 2rem;
+    text-align: center;
+
+}
+.signin{
+    width: 20%;
+    background-color: blue;
+    height: 2rem;
+    margin-left: 10rem;
+
+}
+#ig{
+    color: rgb(189, 15, 110);
+}
+footer{
+    background-color: rgb(202, 128, 128); 
+    padding-inline: 30px;
+    height: 3rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 10px;
+    font-size: larger;
+    margin-top: 7rem;
+}
+
